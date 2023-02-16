@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "lcdf.o" "lib.o" "master_spi.o" "project_fns.o" --strict --scatter "Smart_class_prj.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Smart_class_prj.map" -o "Smart_class_prj.axf"

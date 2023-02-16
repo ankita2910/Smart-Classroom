@@ -1,0 +1,5 @@
+Dependencies for Project 'SPI_COMM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Project_fns.c)(0x5BA0A050)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "project_fns.o" --omf_browse "project_fns.crf" --depend "project_fns.d")
+I (C:\Keil\ARM\INC\Philips\LPC21xx.H)(0x4A02A636)
+F (..\LCD\lcdf.c)(0x00000000)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "lcdf.o" --omf_browse "lcdf.crf" --depend "lcdf.d")
+F (.\slave_spi.c)(0x5BA0A056)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "slave_spi.o" --omf_browse "slave_spi.crf" --depend "slave_spi.d")

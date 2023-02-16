@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'SPI_COMM.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"project_fns.o"'
+### List of Objects: adding '"lcdf.o"'
+### List of Objects: adding '"slave_spi.o"'
+### ADS-LD Command completed:
+--device DARMP "project_fns.o" "lcdf.o" "slave_spi.o" --strict --scatter "SPI_COMM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SPI_COMM.map" -o "SPI_COMM.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'SPI_COMM.axf'
+### ADS-LD Command File: 'SPI_COMM.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'SPI_COMM.lnp', Handle=0x000006DC
+### Writing '.lnp' file
+### ADS-LD Command file 'SPI_COMM.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.

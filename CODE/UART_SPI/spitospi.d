@@ -1,0 +1,1 @@
+spitospi.o: spitospi.c

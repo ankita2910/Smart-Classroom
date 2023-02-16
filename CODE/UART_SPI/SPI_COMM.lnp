@@ -1,0 +1,4 @@
+--device DARMP "project_fns.o" "lcdf.o" "slave_spi.o" --strict --scatter "SPI_COMM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SPI_COMM.map" -o "SPI_COMM.axf"

@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'Smart_class_prj.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"lcdf.o"'
+### List of Objects: adding '"lib.o"'
+### List of Objects: adding '"master_spi.o"'
+### List of Objects: adding '"project_fns.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "lcdf.o" "lib.o" "master_spi.o" "project_fns.o" --strict --scatter "Smart_class_prj.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Smart_class_prj.map" -o "Smart_class_prj.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Smart_class_prj.axf'
+### ADS-LD Command File: 'Smart_class_prj.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Smart_class_prj.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'Smart_class_prj.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
